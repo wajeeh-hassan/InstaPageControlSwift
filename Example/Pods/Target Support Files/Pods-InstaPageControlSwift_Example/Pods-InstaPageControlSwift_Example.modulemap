@@ -1,0 +1,6 @@
+framework module Pods_InstaPageControlSwift_Example {
+  umbrella header "Pods-InstaPageControlSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3688B541849C5AD70B47E64F1CBA9E7E /* InstaPageControlSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82B97E979F930DAA72C7AC58E43F90 /* InstaPageControlSwift-dummy.m */; };
+		520825BAAD349BA6D527069DB330B331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		70AD9AF2E4353BEB570AD8A127DB4B9E /* Pods-InstaPageControlSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BF9A592D2001817136279A6DAAD37B /* Pods-InstaPageControlSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777361D14A09897DFA82FE765CFE42C0 /* InstaPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C58E0C4E28F21AA221CD79EBB871B /* InstaPageControl.swift */; };
+		85FA00E2BFB88DCFA2D36061E331444D /* Pods-InstaPageControlSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 077DD3D3C7ECFE48153F620C0A44E816 /* Pods-InstaPageControlSwift_Tests-dummy.m */; };
+		8A76990F565F31328567373EAE1D63AE /* Pods-InstaPageControlSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4708BAE697ECAE9410AFD464CB7807F2 /* Pods-InstaPageControlSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED6727C8DC0CA107A42CDCC8516A815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5C3A57ECC20819F025E0D6F6B6D36C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EBCB7BECC8347924BB675CD121DCB4A0 /* InstaPageControlSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0B48FDD68F6D79D0D75005723C5992 /* InstaPageControlSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20A5FCA67480ABA0850CC320B73CA9B /* Pods-InstaPageControlSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81A4D0AD1D1E0282712E39A45EEC64 /* Pods-InstaPageControlSwift_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1F85416BDBC70236AB01E38183F2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F392D6DB8B1973F3D356003F47684971;
+			remoteInfo = "Pods-InstaPageControlSwift_Example";
+		};
+		C5EA54F75DBAB34B2F8CF7A0E9C1D607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F909E4FE6099C8D2C76DE060FFF3731A;
+			remoteInfo = InstaPageControlSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077DD3D3C7ECFE48153F620C0A44E816 /* Pods-InstaPageControlSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaPageControlSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		17C0F214CA9FF5B3D5474F9B20A84733 /* Pods-InstaPageControlSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaPageControlSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C0B48FDD68F6D79D0D75005723C5992 /* InstaPageControlSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaPageControlSwift-umbrella.h"; sourceTree = "<group>"; };
+		1DBB89AA9737B817E43F28DC0E92DC3C /* InstaPageControlSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaPageControlSwift-prefix.pch"; sourceTree = "<group>"; };
+		204DAD2B7FEFC3CBA28C16C97EDF0867 /* Pods-InstaPageControlSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaPageControlSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23064F1BB497D5369D178A8172EFCC0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42D6F7237800C63E42BAB2A4711B85D3 /* Pods-InstaPageControlSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-InstaPageControlSwift_Tests"; path = Pods_InstaPageControlSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43FE2B9ACBCE40E855C3178874432FC4 /* InstaPageControlSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InstaPageControlSwift.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4708BAE697ECAE9410AFD464CB7807F2 /* Pods-InstaPageControlSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaPageControlSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		533C9367F47BA21E014D353D79985C0E /* Pods-InstaPageControlSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaPageControlSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58532C72B3D23C27AA42439A5385E816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5BD139AA09F7A086E6688214A8D44094 /* Pods-InstaPageControlSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaPageControlSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		5C81A4D0AD1D1E0282712E39A45EEC64 /* Pods-InstaPageControlSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaPageControlSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		6211C6A4A33802942E495B08DC5D2352 /* Pods-InstaPageControlSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPageControlSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B55C28BECF1C0B5426C10E9842EEAE /* Pods-InstaPageControlSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPageControlSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		768F882494D9594360D6CA630AB49FC7 /* Pods-InstaPageControlSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPageControlSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77BF9A592D2001817136279A6DAAD37B /* Pods-InstaPageControlSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaPageControlSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A9C58E0C4E28F21AA221CD79EBB871B /* InstaPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstaPageControl.swift; path = InstaPageControlSwift/Classes/InstaPageControl.swift; sourceTree = "<group>"; };
+		92AE012AE296AD37D50132BADEC42A38 /* InstaPageControlSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaPageControlSwift.debug.xcconfig; sourceTree = "<group>"; };
+		939F84A9AA732AA1004F47149AC39842 /* Pods-InstaPageControlSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaPageControlSwift_Example.modulemap"; sourceTree = "<group>"; };
+		9B82B97E979F930DAA72C7AC58E43F90 /* InstaPageControlSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaPageControlSwift-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A580D0C1135132A7C4A78AAC3E06A6C8 /* Pods-InstaPageControlSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaPageControlSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		AA3AAC102D499E7D1325406C30F311BE /* Pods-InstaPageControlSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-InstaPageControlSwift_Example"; path = Pods_InstaPageControlSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11408B04A00B708D92F534E1FFC7EC3 /* Pods-InstaPageControlSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaPageControlSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C778D28A59226DF4A7D476A17EDB5838 /* InstaPageControlSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaPageControlSwift.release.xcconfig; sourceTree = "<group>"; };
+		C77B885D7D72F460A76651D787A5A53B /* Pods-InstaPageControlSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaPageControlSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		C92383F28480FEDA9D5DA3C959D13EDA /* Pods-InstaPageControlSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPageControlSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA16B8EFDB7F6AE4B304092294610C84 /* InstaPageControlSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstaPageControlSwift.modulemap; sourceTree = "<group>"; };
+		DF7F86D266789DC20014D21D8877DF74 /* InstaPageControlSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InstaPageControlSwift-Info.plist"; sourceTree = "<group>"; };
+		FCF861688ED1FCAF899DB07A045F03F9 /* InstaPageControlSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstaPageControlSwift; path = InstaPageControlSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD67C2B88289EC1BDB4200869263CBED /* Pods-InstaPageControlSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaPageControlSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A665EBDB1730B00BE82EC8B92CB9120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C3A57ECC20819F025E0D6F6B6D36C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412210048346E1115C2B44FFE2C161D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED6727C8DC0CA107A42CDCC8516A815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D50AF5D8AC14282996514B3BDEE019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520825BAAD349BA6D527069DB330B331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF8F89C67998A6EB80C0CC5843FE795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA16B8EFDB7F6AE4B304092294610C84 /* InstaPageControlSwift.modulemap */,
+				9B82B97E979F930DAA72C7AC58E43F90 /* InstaPageControlSwift-dummy.m */,
+				DF7F86D266789DC20014D21D8877DF74 /* InstaPageControlSwift-Info.plist */,
+				1DBB89AA9737B817E43F28DC0E92DC3C /* InstaPageControlSwift-prefix.pch */,
+				1C0B48FDD68F6D79D0D75005723C5992 /* InstaPageControlSwift-umbrella.h */,
+				92AE012AE296AD37D50132BADEC42A38 /* InstaPageControlSwift.debug.xcconfig */,
+				C778D28A59226DF4A7D476A17EDB5838 /* InstaPageControlSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InstaPageControlSwift";
+			sourceTree = "<group>";
+		};
+		4665BD9839EE0B026CFCAAECA771191A /* Pods-InstaPageControlSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				939F84A9AA732AA1004F47149AC39842 /* Pods-InstaPageControlSwift_Example.modulemap */,
+				FD67C2B88289EC1BDB4200869263CBED /* Pods-InstaPageControlSwift_Example-acknowledgements.markdown */,
+				204DAD2B7FEFC3CBA28C16C97EDF0867 /* Pods-InstaPageControlSwift_Example-acknowledgements.plist */,
+				5C81A4D0AD1D1E0282712E39A45EEC64 /* Pods-InstaPageControlSwift_Example-dummy.m */,
+				17C0F214CA9FF5B3D5474F9B20A84733 /* Pods-InstaPageControlSwift_Example-frameworks.sh */,
+				A580D0C1135132A7C4A78AAC3E06A6C8 /* Pods-InstaPageControlSwift_Example-Info.plist */,
+				77BF9A592D2001817136279A6DAAD37B /* Pods-InstaPageControlSwift_Example-umbrella.h */,
+				6211C6A4A33802942E495B08DC5D2352 /* Pods-InstaPageControlSwift_Example.debug.xcconfig */,
+				74B55C28BECF1C0B5426C10E9842EEAE /* Pods-InstaPageControlSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-InstaPageControlSwift_Example";
+			path = "Target Support Files/Pods-InstaPageControlSwift_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E95426EA08C35463D8BBA31813A3823 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFCBB446B4C356E5B0DD4230A8728355 /* InstaPageControlSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F2EDDF24EB44D1D982F9C5B65454786 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43FE2B9ACBCE40E855C3178874432FC4 /* InstaPageControlSwift.podspec */,
+				58532C72B3D23C27AA42439A5385E816 /* LICENSE */,
+				23064F1BB497D5369D178A8172EFCC0B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B27BBDBB46B11DE12ADF395FC7A39287 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4665BD9839EE0B026CFCAAECA771191A /* Pods-InstaPageControlSwift_Example */,
+				F88A8C8A2128033158AC844D76BEC3DF /* Pods-InstaPageControlSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF39D2C8459BBC578B87334413932DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF861688ED1FCAF899DB07A045F03F9 /* InstaPageControlSwift */,
+				AA3AAC102D499E7D1325406C30F311BE /* Pods-InstaPageControlSwift_Example */,
+				42D6F7237800C63E42BAB2A4711B85D3 /* Pods-InstaPageControlSwift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5E95426EA08C35463D8BBA31813A3823 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BF39D2C8459BBC578B87334413932DB1 /* Products */,
+				B27BBDBB46B11DE12ADF395FC7A39287 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCBB446B4C356E5B0DD4230A8728355 /* InstaPageControlSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C58E0C4E28F21AA221CD79EBB871B /* InstaPageControl.swift */,
+				5F2EDDF24EB44D1D982F9C5B65454786 /* Pod */,
+				3DF8F89C67998A6EB80C0CC5843FE795 /* Support Files */,
+			);
+			name = InstaPageControlSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F88A8C8A2128033158AC844D76BEC3DF /* Pods-InstaPageControlSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BD139AA09F7A086E6688214A8D44094 /* Pods-InstaPageControlSwift_Tests.modulemap */,
+				533C9367F47BA21E014D353D79985C0E /* Pods-InstaPageControlSwift_Tests-acknowledgements.markdown */,
+				B11408B04A00B708D92F534E1FFC7EC3 /* Pods-InstaPageControlSwift_Tests-acknowledgements.plist */,
+				077DD3D3C7ECFE48153F620C0A44E816 /* Pods-InstaPageControlSwift_Tests-dummy.m */,
+				C77B885D7D72F460A76651D787A5A53B /* Pods-InstaPageControlSwift_Tests-Info.plist */,
+				4708BAE697ECAE9410AFD464CB7807F2 /* Pods-InstaPageControlSwift_Tests-umbrella.h */,
+				C92383F28480FEDA9D5DA3C959D13EDA /* Pods-InstaPageControlSwift_Tests.debug.xcconfig */,
+				768F882494D9594360D6CA630AB49FC7 /* Pods-InstaPageControlSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-InstaPageControlSwift_Tests";
+			path = "Target Support Files/Pods-InstaPageControlSwift_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2804533F9BD6BC7FF6ECE5A40BFAD6AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AD9AF2E4353BEB570AD8A127DB4B9E /* Pods-InstaPageControlSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0ACFF427AE52DCA7A68203F1F73FC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB7BECC8347924BB675CD121DCB4A0 /* InstaPageControlSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EE3182AFC17810817A64DC479160A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A76990F565F31328567373EAE1D63AE /* Pods-InstaPageControlSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		245C4F40BE901E05C5225F91EFDFEF53 /* Pods-InstaPageControlSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6704734D0792321F86833DBFA77C3413 /* Build configuration list for PBXNativeTarget "Pods-InstaPageControlSwift_Tests" */;
+			buildPhases = (
+				65EE3182AFC17810817A64DC479160A0 /* Headers */,
+				7E15A46C8BB2911E927EEE5D2015DC8A /* Sources */,
+				D8D50AF5D8AC14282996514B3BDEE019 /* Frameworks */,
+				7AB207025F4066A49B9031F520E38B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B860EAF7F28706F1C5764C4C26FEEE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-InstaPageControlSwift_Tests";
+			productName = Pods_InstaPageControlSwift_Tests;
+			productReference = 42D6F7237800C63E42BAB2A4711B85D3 /* Pods-InstaPageControlSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F392D6DB8B1973F3D356003F47684971 /* Pods-InstaPageControlSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749A9C4752B09C82F02F4A185D70841F /* Build configuration list for PBXNativeTarget "Pods-InstaPageControlSwift_Example" */;
+			buildPhases = (
+				2804533F9BD6BC7FF6ECE5A40BFAD6AD /* Headers */,
+				208F84CED2E72679D408ACEC5DA3CA94 /* Sources */,
+				9A665EBDB1730B00BE82EC8B92CB9120 /* Frameworks */,
+				45AA794C82672CFFECE39C453970CFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08421577CDF9B6D5ECF1809F92BE531E /* PBXTargetDependency */,
+			);
+			name = "Pods-InstaPageControlSwift_Example";
+			productName = Pods_InstaPageControlSwift_Example;
+			productReference = AA3AAC102D499E7D1325406C30F311BE /* Pods-InstaPageControlSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F909E4FE6099C8D2C76DE060FFF3731A /* InstaPageControlSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C809810504F398546B44E5F8ABFC93B2 /* Build configuration list for PBXNativeTarget "InstaPageControlSwift" */;
+			buildPhases = (
+				3E0ACFF427AE52DCA7A68203F1F73FC6 /* Headers */,
+				E878FD315BC669D2AB01ECB01DD21F3F /* Sources */,
+				B412210048346E1115C2B44FFE2C161D /* Frameworks */,
+				A890CF6640FBCF365F607115D1DB0182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPageControlSwift;
+			productName = InstaPageControlSwift;
+			productReference = FCF861688ED1FCAF899DB07A045F03F9 /* InstaPageControlSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BF39D2C8459BBC578B87334413932DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F909E4FE6099C8D2C76DE060FFF3731A /* InstaPageControlSwift */,
+				F392D6DB8B1973F3D356003F47684971 /* Pods-InstaPageControlSwift_Example */,
+				245C4F40BE901E05C5225F91EFDFEF53 /* Pods-InstaPageControlSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AA794C82672CFFECE39C453970CFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB207025F4066A49B9031F520E38B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890CF6640FBCF365F607115D1DB0182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208F84CED2E72679D408ACEC5DA3CA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20A5FCA67480ABA0850CC320B73CA9B /* Pods-InstaPageControlSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E15A46C8BB2911E927EEE5D2015DC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FA00E2BFB88DCFA2D36061E331444D /* Pods-InstaPageControlSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E878FD315BC669D2AB01ECB01DD21F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777361D14A09897DFA82FE765CFE42C0 /* InstaPageControl.swift in Sources */,
+				3688B541849C5AD70B47E64F1CBA9E7E /* InstaPageControlSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08421577CDF9B6D5ECF1809F92BE531E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InstaPageControlSwift;
+			target = F909E4FE6099C8D2C76DE060FFF3731A /* InstaPageControlSwift */;
+			targetProxy = C5EA54F75DBAB34B2F8CF7A0E9C1D607 /* PBXContainerItemProxy */;
+		};
+		5B860EAF7F28706F1C5764C4C26FEEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InstaPageControlSwift_Example";
+			target = F392D6DB8B1973F3D356003F47684971 /* Pods-InstaPageControlSwift_Example */;
+			targetProxy = BE1F85416BDBC70236AB01E38183F2A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66933609C9F80A8F1C0A8740AF07D232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92383F28480FEDA9D5DA3C959D13EDA /* Pods-InstaPageControlSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaPageControlSwift_Tests/Pods-InstaPageControlSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaPageControlSwift_Tests/Pods-InstaPageControlSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CB7DB652942EDF6688BDA37E8491902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C778D28A59226DF4A7D476A17EDB5838 /* InstaPageControlSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift.modulemap";
+				PRODUCT_MODULE_NAME = InstaPageControlSwift;
+				PRODUCT_NAME = InstaPageControlSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A814AB25A89EDF2743A17BF3B5A407AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AE012AE296AD37D50132BADEC42A38 /* InstaPageControlSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstaPageControlSwift/InstaPageControlSwift.modulemap";
+				PRODUCT_MODULE_NAME = InstaPageControlSwift;
+				PRODUCT_NAME = InstaPageControlSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B41A58BA8F68B80A028DD91F905816A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6211C6A4A33802942E495B08DC5D2352 /* Pods-InstaPageControlSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaPageControlSwift_Example/Pods-InstaPageControlSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaPageControlSwift_Example/Pods-InstaPageControlSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C62D0C0776F2EFB0511831818AC95838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B55C28BECF1C0B5426C10E9842EEAE /* Pods-InstaPageControlSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaPageControlSwift_Example/Pods-InstaPageControlSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaPageControlSwift_Example/Pods-InstaPageControlSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C1909FCA13981710CEA359F5D58EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768F882494D9594360D6CA630AB49FC7 /* Pods-InstaPageControlSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaPageControlSwift_Tests/Pods-InstaPageControlSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaPageControlSwift_Tests/Pods-InstaPageControlSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6704734D0792321F86833DBFA77C3413 /* Build configuration list for PBXNativeTarget "Pods-InstaPageControlSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66933609C9F80A8F1C0A8740AF07D232 /* Debug */,
+				C9C1909FCA13981710CEA359F5D58EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749A9C4752B09C82F02F4A185D70841F /* Build configuration list for PBXNativeTarget "Pods-InstaPageControlSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41A58BA8F68B80A028DD91F905816A4 /* Debug */,
+				C62D0C0776F2EFB0511831818AC95838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C809810504F398546B44E5F8ABFC93B2 /* Build configuration list for PBXNativeTarget "InstaPageControlSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814AB25A89EDF2743A17BF3B5A407AC /* Debug */,
+				7CB7DB652942EDF6688BDA37E8491902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

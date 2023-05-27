@@ -1,0 +1,6 @@
+framework module InstaPageControlSwift {
+  umbrella header "InstaPageControlSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

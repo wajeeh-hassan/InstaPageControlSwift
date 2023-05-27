@@ -1,0 +1,16 @@
+PODS:
+  - InstaPageControlSwift (0.1.0)
+
+DEPENDENCIES:
+  - InstaPageControlSwift (from `../`)
+
+EXTERNAL SOURCES:
+  InstaPageControlSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstaPageControlSwift: 4e1439edb4eede952675cea92f7597575e283ec1
+
+PODFILE CHECKSUM: 186836edf36b7e4c3ec723453dc55c408de4e7b9
+
+COCOAPODS: 1.11.3
