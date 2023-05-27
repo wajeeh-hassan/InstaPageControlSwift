@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'InstaPageControlSwift_Example' do
+  pod 'InstaPageControlSwift', :path => '../'
+
+  target 'InstaPageControlSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
