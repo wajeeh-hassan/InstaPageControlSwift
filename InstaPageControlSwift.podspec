@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InstaPageControlSwift'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
     s.summary          = 'This is the first version of InstaPageControlSwift. It is having veru basic functions'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here .
+  A page control is a user interface element commonly used in mobile applications to indicate the current page within a series of content or provide navigation between different sections or screens. It typically appears as a series of small dots or indicators positioned horizontally at the bottom of a view.
                        DESC
 
   s.homepage         = 'https://github.com/wajeeh-hassan/InstaPageControlSwift'
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here .
   
   s.source_files = 'InstaPageControlSwift/Classes/**/*'
   
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'easySwiftToast' => ['easySwiftToast/Assets/*.png']
   # }
