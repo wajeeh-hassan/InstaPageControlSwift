@@ -1,4 +1,4 @@
-#
+
 # Be sure to run `pod lib lint InstaPageControlSwift.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InstaPageControlSwift'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of InstaPageControlSwift.'
+  s.version          = '0.0.2'
+    s.summary          = 'This is the first version of InstaPageControlSwift. It is having veru basic functions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here .
                        DESC
 
   s.homepage         = 'https://github.com/wajeeh-hassan/InstaPageControlSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wajeeh-hassan' => 'wajeeh661@gmail.com' }
+  s.author           = { 'wajeehulhassan' => 'wajeeh661@gmail.com' }
   s.source           = { :git => 'https://github.com/wajeeh-hassan/InstaPageControlSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
-
+  s.ios.deployment_target = '9.0'
+  
   s.source_files = 'InstaPageControlSwift/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'InstaPageControlSwift' => ['InstaPageControlSwift/Assets/*.png']
+  #   'easySwiftToast' => ['easySwiftToast/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
